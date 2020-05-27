@@ -1,0 +1,9 @@
+Exactitud vader: 0.5714285714285714
+Exactitud positivas vader: 0.5641025641025641
+Exactitud negativas vader: 0.5161290322580645
+Exactitud neutrales vader: 0.6666666666666666Exactitud blob: 0.3956043956043956
+Exactitud positivas blob: 0.38461538461538464
+Exactitud negativas blob: 0.41935483870967744
+Exactitud neutrales blob: 0.38095238095238093Exactitud ibm_max:0.5714285714285714
+Exactitud positivas ibm: 0.7692307692307693
+Exactitud negativas ibm: 0.7096774193548387

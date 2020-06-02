@@ -55,10 +55,10 @@ with open('results.csv', 'r') as f:
                 neg_ibm = neg_ibm+1
             else:
                 neu_ibm+=1
-    print("Exactitud vader: ", count_vader/(i+1),"\nExactitud positivas vader: ", pos_va/total_pos, "\nExactitud negativas vader: ", neg_va/total_neg,"\nExactitud neutrales vader: ",neu_va/total_neu)
-    print("Exactitud blob: ", count_blob/(i+1),"\nExactitud positivas blob: ", pos_blob/total_pos, "\nExactitud negativas blob: ", neg_blob/total_neg,"\nExactitud neutrales blob: ",neu_blob/total_neu)
-    print("Exactitud ibm_max:", count_ibm/(i+1),"\nExactitud positivas ibm: ", pos_ibm/total_pos, "\nExactitud negativas ibm: ", neg_ibm/total_neg)
+    print("Precision vader: ", count_vader/(i+1),"\nPrecision positivas vader: ", pos_va/total_pos, "\nPrecision negativas vader: ", neg_va/total_neg,"\nPrecision neutrales vader: ",neu_va/total_neu)
+    print("Precision blob: ", count_blob/(i+1),"\nPrecision positivas blob: ", pos_blob/total_pos, "\nPrecision negativas blob: ", neg_blob/total_neg,"\nPrecision neutrales blob: ",neu_blob/total_neu)
+    print("Precision ibm_max:", count_ibm/(i+1),"\nPrecision positivas ibm: ", pos_ibm/total_pos, "\nPrecision negativas ibm: ", neg_ibm/total_neg)
     f= open("Exactitudes.txt","w+")
-    f.write("Exactitud vader: " + str(count_vader/(i+1)) +"\nExactitud positivas vader: " + str(pos_va/total_pos) + "\nExactitud negativas vader: "+str(neg_va/total_neg)+"\nExactitud neutrales vader: "+str(neu_va/total_neu))
-    f.write("Exactitud blob: "+str(count_blob/(i+1))+"\nExactitud positivas blob: "+str(pos_blob/total_pos)+"\nExactitud negativas blob: "+str(neg_blob/total_neg)+"\nExactitud neutrales blob: "+str(neu_blob/total_neu))
-    f.write("Exactitud ibm_max:"+str(count_ibm/(i+1))+"\nExactitud positivas ibm: "+str(pos_ibm/total_pos)+"\nExactitud negativas ibm: "+str(neg_ibm/total_neg))
+    f.write("Precision vader: " + str(count_vader/(i+1)) +"\nPrecision positivas vader: " + str(pos_va/total_pos) + "\nPrecision negativas vader: "+str(neg_va/total_neg)+"\nPrecision neutrales vader: "+str(neu_va/total_neu))
+    f.write("Precision blob: "+str(count_blob/(i+1))+"\nPrecision positivas blob: "+str(pos_blob/total_pos)+"\nPrecision negativas blob: "+str(neg_blob/total_neg)+"\nPrecision neutrales blob: "+str(neu_blob/total_neu))
+    f.write("Precision ibm_max:"+str(count_ibm/(i+1))+"\nPrecision positivas ibm: "+str(pos_ibm/total_pos)+"\nPrecision negativas ibm: "+str(neg_ibm/total_neg))
